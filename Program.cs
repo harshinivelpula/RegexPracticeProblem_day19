@@ -51,14 +51,31 @@
         //        Console.WriteLine("Name is not matched");
         //    }
         //}
+        //public static void Main(string[] args)
+        //{
+        //    mobileformat mobileFormat = new mobileformat();
+        //    Console.WriteLine("enter the phonenumber");
+
+        //    string phonenumber = Console.ReadLine();
+
+        //    bool value = mobileFormat.validatemobilenumber(phonenumber);
+        //    if (value)
+        //    {
+        //        Console.WriteLine("matched");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("not matched");
+        //    }
+        //}
         public static void Main(string[] args)
         {
-            mobileformat mobileFormat = new mobileformat();
-            Console.WriteLine("enter the phonenumber");
+            passwordrule1 passWord = new passwordrule1();
+            Console.WriteLine("enter the password");
 
-            string phonenumber = Console.ReadLine();
+            string password = Console.ReadLine();
 
-            bool value = mobileFormat.validatemobilenumber(phonenumber);
+            bool value = passWord.validatePassWord(password);
             if (value)
             {
                 Console.WriteLine("matched");
