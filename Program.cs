@@ -119,14 +119,31 @@
         //        Console.WriteLine("not matched");
         //    }
         //}
+        //public static void Main(string[] args)
+        //{
+        //    passwordrule4 passwordRule4 = new passwordrule4();
+        //    Console.WriteLine("please enter the password");
+
+        //    string password = Console.ReadLine();
+
+        //    bool value = passwordRule4.validatePassWord(password);
+        //    if (value)
+        //    {
+        //        Console.WriteLine("matched");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("not matched");
+        //    }
+        //}
         public static void Main(string[] args)
         {
-            passwordrule4 passwordRule4 = new passwordrule4();
-            Console.WriteLine("please enter the password");
+            emailsamples emailSamples = new emailsamples();
+            Console.WriteLine("enter the email");
 
-            string password = Console.ReadLine();
+            string email = Console.ReadLine();
 
-            bool value = passwordRule4.validatePassWord(password);
+            bool value = emailSamples.validateValidAllEmail(email);
             if (value)
             {
                 Console.WriteLine("matched");
