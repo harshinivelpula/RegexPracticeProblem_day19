@@ -34,21 +34,38 @@
         //        Console.WriteLine("Name is not matched");
         //    }
         //}
+        //public static void Main(string[] args)
+        //{
+        //    validemail validEmail3 = new validemail();
+        //    Console.WriteLine("enter the EmailId");
+
+        //    string validemail = Console.ReadLine();
+
+        //    bool value3 = validEmail3.validateemail(validemail);
+        //    if (value3)
+        //    {
+        //        Console.WriteLine("Name is matched");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("Name is not matched");
+        //    }
+        //}
         public static void Main(string[] args)
         {
-            validemail validEmail3 = new validemail();
-            Console.WriteLine("enter the EmailId");
+            mobileformat mobileFormat = new mobileformat();
+            Console.WriteLine("enter the phonenumber");
 
-            string validemail = Console.ReadLine();
+            string phonenumber = Console.ReadLine();
 
-            bool value3 = validEmail3.validateemail(validemail);
-            if (value3)
+            bool value = mobileFormat.validatemobilenumber(phonenumber);
+            if (value)
             {
-                Console.WriteLine("Name is matched");
+                Console.WriteLine("matched");
             }
             else
             {
-                Console.WriteLine("Name is not matched");
+                Console.WriteLine("not matched");
             }
         }
     }
