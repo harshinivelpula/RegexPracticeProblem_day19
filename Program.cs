@@ -17,15 +17,32 @@
         //        Console.WriteLine("name is not matched");
         //    }
         //}
+        //public static void Main(string[] args)
+        //{
+        //    validlastname validLastName = new validlastname();
+        //    Console.WriteLine("please enter the name");
+
+        //    string validlastname = Console.ReadLine();
+
+        //    bool value = validLastName.validatelastname(validlastname);
+        //    if (value)
+        //    {
+        //        Console.WriteLine("Name is matched");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("Name is not matched");
+        //    }
+        //}
         public static void Main(string[] args)
         {
-            validlastname validLastName = new validlastname();
-            Console.WriteLine("please enter the name");
+            validemail validEmail3 = new validemail();
+            Console.WriteLine("enter the EmailId");
 
-            string validlastname = Console.ReadLine();
+            string validemail = Console.ReadLine();
 
-            bool value = validLastName.validatelastname(validlastname);
-            if (value)
+            bool value3 = validEmail3.validateemail(validemail);
+            if (value3)
             {
                 Console.WriteLine("Name is matched");
             }
