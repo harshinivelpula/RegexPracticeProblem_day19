@@ -68,14 +68,31 @@
         //        Console.WriteLine("not matched");
         //    }
         //}
+        //public static void Main(string[] args)
+        //{
+        //    passwordrule1 passWord = new passwordrule1();
+        //    Console.WriteLine("enter the password");
+
+        //    string password = Console.ReadLine();
+
+        //    bool value = passWord.validatePassWord(password);
+        //    if (value)
+        //    {
+        //        Console.WriteLine("matched");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("not matched");
+        //    }
+        //}
         public static void Main(string[] args)
         {
-            passwordrule1 passWord = new passwordrule1();
+            uppercaserule2 password6Rule2 = new uppercaserule2();
             Console.WriteLine("enter the password");
 
             string password = Console.ReadLine();
 
-            bool value = passWord.validatePassWord(password);
+            bool value = password6Rule2.validatePassWord(password);
             if (value)
             {
                 Console.WriteLine("matched");
